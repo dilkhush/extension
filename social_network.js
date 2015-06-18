@@ -25,7 +25,7 @@ SocialNetwork.prototype.current_page = function(){
   return location.href;
 }
 
-var template = "<div class='social_networks hide'><a class='twitter' target='_blank' href=''><img src='twitter.png' alt='HTML tutorial' style='width:35px;height:35px;border:0'></a><a class='email' target='_blank' href=''><img src='email.jpg' alt='HTML tutorial' style='width:35px;height:35px;border:0'></a></div>";
+var template = "<div class='social_networks hide'><a class='twitter' target='_blank' href=''><img src='https://rawgit.com/dilkhush/extension/master/twitter.png' alt='HTML tutorial' style='width:35px;height:35px;border:0'></a><a class='email' target='_blank' href=''><img src='https://rawgit.com/dilkhush/extension/master/email.jpg' alt='HTML tutorial' style='width:35px;height:35px;border:0'></a></div>";
 
 var div = document.createElement('div');
 div.innerHTML = template
