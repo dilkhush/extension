@@ -1,9 +1,9 @@
 
 function init(){
-  var js_files = ["https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js", "https://gist.github.com/dilkhush/5933ec99adf8cf28ec08", "social_network.js"]
+   var js_files = ["https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js", "https://rawgit.com/dilkhush/extension/master/TextHighlighter.js", "https://rawgit.com/dilkhush/extension/master/social_network.js"]
   for(var i = 0; i < js_files.length;  i += 1)
     load_js(js_files[i])
-  load_css('index.css')
+  load_css('https://rawgit.com/dilkhush/extension/master/index.css')
 }
 
 function load_js(file){
