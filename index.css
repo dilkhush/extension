@@ -1,0 +1,16 @@
+.container{
+  width: 700px;
+  height: 500px;
+}
+
+.social_networks{
+	position: absolute;
+}
+
+.hide {
+	display: none;
+}
+
+.custom_show{
+	display: inline-block !important;
+}
